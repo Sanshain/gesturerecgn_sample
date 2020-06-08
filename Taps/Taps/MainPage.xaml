@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Taps"
+             x:Class="Taps.MainPage">
+
+    <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray" x:Name="back">
+
+        <Frame BackgroundColor="Red" x:Name="frame" AbsoluteLayout.LayoutBounds=".1, .2, .5, .5" AbsoluteLayout.LayoutFlags="All">
+            <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
+                <BoxView BackgroundColor="Green" AbsoluteLayout.LayoutBounds="20, 20, 50, 50" x:Name="box" >
+
+                </BoxView>
+            </AbsoluteLayout>
+        </Frame>
+        <Label x:Name="log" AbsoluteLayout.LayoutBounds="0, 0.9, 1, 0.1" AbsoluteLayout.LayoutFlags="All" BackgroundColor="LightBlue"/>
+        <Label x:Name="moveLog" AbsoluteLayout.LayoutBounds="0, 1, 1, 0.1" AbsoluteLayout.LayoutFlags="All"/>
+
+    </AbsoluteLayout>
+
+
+</ContentPage>
