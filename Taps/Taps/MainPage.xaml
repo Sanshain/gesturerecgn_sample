@@ -6,9 +6,10 @@
 
     <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray" x:Name="back">
 
-        <Frame BackgroundColor="Red" x:Name="frame" AbsoluteLayout.LayoutBounds=".1, .2, .5, .5" AbsoluteLayout.LayoutFlags="All">
+        <Frame BackgroundColor="Red" x:Name="frame" AbsoluteLayout.LayoutBounds=".1, .2, .5, .5" 
+               AbsoluteLayout.LayoutFlags="All" Padding="0">
             <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
-                <BoxView BackgroundColor="Green" AbsoluteLayout.LayoutBounds="20, 20, 50, 50" x:Name="box" >
+                <BoxView BackgroundColor="Green" AbsoluteLayout.LayoutBounds="100, 100, 50, 50" x:Name="box" >
 
                 </BoxView>
             </AbsoluteLayout>
