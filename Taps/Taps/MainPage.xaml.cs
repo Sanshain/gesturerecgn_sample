@@ -44,7 +44,7 @@ namespace Taps
                     _loc = box.Bounds.Location; init = true;
                 }
 
-                log.Text = $"{(int)e.TotalX}:{(int)e.TotalY}({e.GestureId}:{e.StatusType.ToString()})"; // moveLog.Text = $"{(int)loc.X}:{(int)loc.Y}({(int)_loc.X}:{(int)_loc.Y})";
+                log.Text = $"{(int)e.TotalX}:{(int)e.TotalY}({e.GestureId}:{e.StatusType.ToString()})"; // moveLog.Text = $"{(int)loc.X}:{(int)loc.Y}({(int)_loc.X}:{(int)_loc.Y})";                
 
                 if (e.StatusType != GestureStatus.Completed)
                 {
